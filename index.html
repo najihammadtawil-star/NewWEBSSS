@@ -3,8 +3,8 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Ironleaf Landscaping | Premium Outdoor Improvements - Katy, Texas</title>
-<meta name="description" content="Ironleaf Landscaping delivers premium landscape design, sod installation, and outdoor transformations in Katy, TX and the greater Houston area.">
+<title>Ironleaf Landscaping | Premium Landscaping, and Outdoor Improvements in Katy, Texas &amp; Greater Houston</title>
+<meta name="description" content="Ironleaf Landscaping provides Premium Landscaping, and outdoor improvements in Katy, Texas &amp; Greater Houston.">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;1,300;1,400&family=Outfit:wght@300;400;500;600&display=swap" rel="stylesheet">
 <style>
@@ -12,16 +12,16 @@
   *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
 
   :root {
-    --black:   #0a0a0a;
-    --charcoal: #111111;
-    --dark:    #171717;
-    --panel:   #1c1c1c;
-    --border:  #2a2a2a;
-    --gold:    #b8963e;
-    --gold-lt: #d4af6a;
-    --gold-dim:#7a6030;
-    --white:   #f5f0e8;
-    --muted:   #8a8478;
+    --black:   #050605;
+    --charcoal: #0b0d0b;
+    --dark:    #111411;
+    --panel:   #171b17;
+    --border:  #30352f;
+    --gold:    #6f8f5a;
+    --gold-lt: #d8ded2;
+    --gold-dim:#40583a;
+    --white:   #e6e2d8;
+    --muted:   #9a9a92;
     --font-display: 'Cormorant Garamond', serif;
     --font-body:    'Outfit', sans-serif;
   }
@@ -59,21 +59,28 @@
   }
 
   .nav-logo {
-    font-family: var(--font-display);
-    font-size: 1.45rem;
-    font-weight: 600;
-    letter-spacing: 0.04em;
+    font-family: var(--font-body);
+    font-size: 0.82rem;
+    font-weight: 700;
+    letter-spacing: 0.16em;
+    text-transform: uppercase;
     color: var(--white);
     cursor: pointer;
     display: flex; align-items: center; gap: 10px;
   }
 
   .nav-logo .leaf-mark {
-    width: 28px; height: 28px;
+    width: 56px; height: 56px;
     display: flex; align-items: center; justify-content: center;
+    overflow: hidden;
   }
 
-  .nav-logo .leaf-mark svg { width: 100%; height: 100%; }
+  .brand-logo-img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    display: block;
+  }
 
   .nav-links {
     display: flex; gap: 2.5rem; list-style: none;
@@ -125,9 +132,9 @@
   .hero-bg {
     position: absolute; inset: 0;
     background:
-      radial-gradient(ellipse 80% 60% at 65% 40%, rgba(184,150,62,0.08) 0%, transparent 70%),
-      radial-gradient(ellipse 50% 80% at 10% 90%, rgba(184,150,62,0.05) 0%, transparent 60%),
-      linear-gradient(160deg, #0a0a0a 0%, #131310 50%, #0c0c09 100%);
+      radial-gradient(ellipse 80% 60% at 65% 40%, rgba(111,143,90,0.12) 0%, transparent 70%),
+      radial-gradient(ellipse 50% 80% at 10% 90%, rgba(216,222,210,0.05) 0%, transparent 60%),
+      linear-gradient(160deg, #050605 0%, #10140f 50%, #070907 100%);
   }
 
   /* Textured grain overlay */
@@ -212,7 +219,7 @@
     transition: all 0.25s;
   }
 
-  .btn-primary:hover { background: var(--gold-lt); transform: translateY(-2px); box-shadow: 0 8px 24px rgba(184,150,62,0.3); }
+  .btn-primary:hover { background: var(--gold-lt); transform: translateY(-2px); box-shadow: 0 8px 24px rgba(111,143,90,0.32); }
 
   .btn-outline {
     background: transparent;
@@ -450,14 +457,14 @@
     position: relative;
     overflow: hidden;
     background:
-      radial-gradient(ellipse 60% 80% at 50% 50%, rgba(184,150,62,0.07) 0%, transparent 70%),
+      radial-gradient(ellipse 60% 80% at 50% 50%, rgba(111,143,90,0.09) 0%, transparent 70%),
       var(--black);
   }
 
   .final-cta::before {
     content: '';
     position: absolute; inset: 0;
-    background: url("data:image/svg+xml,%3Csvg width='60' height='60' viewBox='0 0 60 60' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='none' fill-rule='evenodd'%3E%3Cg fill='%23b8963e' fill-opacity='0.03'%3E%3Cpath d='M36 34v-4h-2v4h-4v2h4v4h2v-4h4v-2h-4zm0-30V0h-2v4h-4v2h4v4h2V6h4V4h-4zM6 34v-4H4v4H0v2h4v4h2v-4h4v-2H6zM6 4V0H4v4H0v2h4v4h2V6h4V4H6z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
+    background: url("data:image/svg+xml,%3Csvg width='60' height='60' viewBox='0 0 60 60' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='none' fill-rule='evenodd'%3E%3Cg fill='%236f8f5a' fill-opacity='0.035'%3E%3Cpath d='M36 34v-4h-2v4h-4v2h4v4h2v-4h4v-2h-4zm0-30V0h-2v4h-4v2h4v4h2V6h4V4h-4zM6 34v-4H4v4H0v2h4v4h2v-4h4v-2H6zM6 4V0H4v4H0v2h4v4h2V6h4V4H6z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
   }
 
   .final-cta h2 {
@@ -934,7 +941,7 @@
     margin-top: 1rem;
     padding: 0.95rem 1rem;
     border: 1px solid var(--gold-dim);
-    background: rgba(184, 150, 62, 0.1);
+    background: rgba(111, 143, 90, 0.12);
     color: var(--gold-lt);
     font-size: 0.82rem;
     line-height: 1.7;
@@ -969,7 +976,7 @@
   .page-header {
     padding: 10rem 4vw 5rem;
     background:
-      radial-gradient(ellipse 80% 60% at 50% 0%, rgba(184,150,62,0.06) 0%, transparent 70%),
+      radial-gradient(ellipse 80% 60% at 50% 0%, rgba(111,143,90,0.08) 0%, transparent 70%),
       var(--charcoal);
     border-bottom: 1px solid var(--border);
     text-align: center;
@@ -1010,10 +1017,19 @@
   }
 
   .footer-brand .fb-logo {
-    font-family: var(--font-display);
-    font-size: 1.5rem; font-weight: 600;
+    font-family: var(--font-body);
+    font-size: 0.9rem; font-weight: 700;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
     color: var(--white); margin-bottom: 1rem;
     display: flex; align-items: center; gap: 8px;
+  }
+
+  .footer-logo-img {
+    width: 54px;
+    height: 54px;
+    object-fit: contain;
+    flex-shrink: 0;
   }
 
   .footer-brand p {
@@ -1133,16 +1149,17 @@
   .area-page-body { padding: 5rem 4vw 7rem; max-width: 1100px; margin: 0 auto; }
   .area-radius-callout {
     display: inline-block;
-    margin-top: 1.1rem;
-    padding: 0.65rem 1rem;
-    border: 1px solid var(--gold-dim);
-    background: rgba(184, 150, 62, 0.12);
+    margin-top: 1.35rem;
+    padding: 0.95rem 1.45rem;
+    border: 2px solid var(--gold-dim);
+    background: rgba(111, 143, 90, 0.2);
     color: var(--gold-lt);
-    font-size: 0.78rem;
-    font-weight: 600;
-    letter-spacing: 0.14em;
+    font-size: clamp(1rem, 2.2vw, 1.35rem);
+    font-weight: 800;
+    letter-spacing: 0.12em;
     line-height: 1.4;
     text-transform: uppercase;
+    box-shadow: 0 12px 34px rgba(0, 0, 0, 0.28);
   }
   .area-seo-text {
     margin-top: 4rem; padding-top: 3rem; border-top: 1px solid var(--border);
@@ -1240,12 +1257,7 @@
 <nav id="mainNav">
   <div class="nav-logo" onclick="showPage('home')">
     <div class="leaf-mark">
-      <svg viewBox="0 0 28 28" fill="none" xmlns="http://www.w3.org/2000/svg">
-        <path d="M14 3C14 3 4 8 4 16C4 21.523 8.477 26 14 26C19.523 26 24 21.523 24 16C24 8 14 3 14 3Z" fill="#b8963e" opacity="0.85"/>
-        <path d="M14 26V12" stroke="#0a0a0a" stroke-width="1.5" stroke-linecap="round"/>
-        <path d="M14 18L9 13" stroke="#0a0a0a" stroke-width="1.2" stroke-linecap="round"/>
-        <path d="M14 15L18 11" stroke="#0a0a0a" stroke-width="1.2" stroke-linecap="round"/>
-      </svg>
+      <img class="brand-logo-img" src="ironleaf-logo.png" alt="Iron Leaf logo">
     </div>
     Ironleaf
   </div>
@@ -1303,21 +1315,21 @@
     <div class="ba-grid">
       <div class="ba-item reveal">
         <div class="img-placeholder" style="background: linear-gradient(135deg, #1a1f1a 0%, #0f150f 100%);">
-          <svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="#b8963e" stroke-width="1"><path d="M3 9l9-7 9 7v11a2 2 0 01-2 2H5a2 2 0 01-2-2z"/><polyline points="9,22 9,12 15,12 15,22"/></svg>
+          <svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="#6f8f5a" stroke-width="1"><path d="M3 9l9-7 9 7v11a2 2 0 01-2 2H5a2 2 0 01-2-2z"/><polyline points="9,22 9,12 15,12 15,22"/></svg>
           <span>Landscape Design</span>
         </div>
         <div class="ba-label">Full Landscape Installation - Katy, TX</div>
       </div>
       <div class="ba-item reveal">
         <div class="img-placeholder" style="background: linear-gradient(135deg, #141a10 0%, #0c1209 100%);">
-          <svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="#b8963e" stroke-width="1"><rect x="3" y="3" width="7" height="7"/><rect x="14" y="3" width="7" height="7"/><rect x="14" y="14" width="7" height="7"/><rect x="3" y="14" width="7" height="7"/></svg>
+          <svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="#6f8f5a" stroke-width="1"><rect x="3" y="3" width="7" height="7"/><rect x="14" y="3" width="7" height="7"/><rect x="14" y="14" width="7" height="7"/><rect x="3" y="14" width="7" height="7"/></svg>
           <span>Sod Installation</span>
         </div>
         <div class="ba-label">Sod Replacement - Cypress, TX</div>
       </div>
       <div class="ba-item reveal">
         <div class="img-placeholder" style="background: linear-gradient(135deg, #181a12 0%, #10120b 100%);">
-          <svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="#b8963e" stroke-width="1"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
+          <svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="#6f8f5a" stroke-width="1"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
           <span>Outdoor Upgrade</span>
         </div>
         <div class="ba-label">Property Refresh - Fulshear, TX</div>
@@ -1332,45 +1344,45 @@
       <p>Every project is approached with the same commitment to precision - from initial design to final installation.</p>
     </div>
     <div class="services-grid">
-      <div class="service-card reveal" onclick="showPage('services')">
+      <div class="service-card reveal" onclick="showServiceCategory('design')">
         <svg class="service-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"/></svg>
-        <h3>Landscape Design</h3>
-        <p>Curated outdoor environments tailored to your property's architecture and terrain.</p>
+        <h3>Design &amp; Installs</h3>
+        <p>Full landscape planning and installation for polished, intentional outdoor spaces.</p>
       </div>
-      <div class="service-card reveal" onclick="showPage('services')">
+      <div class="service-card reveal" onclick="showServiceCategory('turf')">
         <svg class="service-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><rect x="3" y="3" width="18" height="18" rx="2"/><path d="M3 9h18M9 21V9"/></svg>
-        <h3>Sod Installation</h3>
-        <p>Premium turf solutions that establish lush, enduring lawns from day one.</p>
+        <h3>Lawn &amp; Turf</h3>
+        <p>Sod installation and turf repair with clean prep, grading, and finish work.</p>
       </div>
-      <div class="service-card reveal" onclick="showPage('services')">
-        <svg class="service-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><circle cx="12" cy="12" r="10"/><path d="M12 8v4l3 3"/></svg>
-        <h3>Outdoor Transformations</h3>
-        <p>Complete exterior overhauls that elevate curb appeal and long-term property value.</p>
-      </div>
-      <div class="service-card reveal" onclick="showPage('services')">
+      <div class="service-card reveal" onclick="showServiceCategory('beds')">
         <svg class="service-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z"/><circle cx="12" cy="10" r="3"/></svg>
-        <h3>Garden Bed Enhancements</h3>
-        <p>Mulch, stone, and edging installations that define and refine your landscape.</p>
+        <h3>Beds &amp; Planting</h3>
+        <p>Mulch, stone, edging, bed cleanup, plant refreshes, and garden bed detail work.</p>
       </div>
-      <div class="service-card reveal" onclick="showPage('services')">
+      <div class="service-card reveal" onclick="showServiceCategory('cleanup')">
         <svg class="service-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M17 21v-2a4 4 0 00-4-4H5a4 4 0 00-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 00-3-3.87"/></svg>
-        <h3>Structural Trimming</h3>
-        <p>Precision hedge and shrub shaping that reinforces the architecture of your exterior.</p>
+        <h3>Cleanup &amp; Trim</h3>
+        <p>Leaf removal, shrub shaping, debris cleanup, edging touchups, and outdoor refreshes.</p>
       </div>
-      <div class="service-card reveal" onclick="showPage('services')">
+      <div class="service-card reveal" onclick="showServiceCategory('drainage')">
         <svg class="service-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><polyline points="22 12 18 12 15 21 9 3 6 12 2 12"/></svg>
-        <h3>Drainage Solutions</h3>
-        <p>Grading and water management systems engineered for long-term performance.</p>
+        <h3>Drainage</h3>
+        <p>Grading and water-flow improvements for pooling, runoff, erosion, and low spots.</p>
       </div>
-      <div class="service-card reveal" onclick="showPage('services')">
-        <svg class="service-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M12 22V12M12 12C12 12 7 9 7 5a5 5 0 0110 0c0 4-5 7-5 7z"/></svg>
-        <h3>Property Cleanups</h3>
-        <p>Seasonal and one-time outdoor refreshes that restore and reset your exterior.</p>
+      <div class="service-card reveal" onclick="showServiceCategory('trees')">
+        <svg class="service-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M12 22V12"/><path d="M12 12c-3 0-5-2-5-5a5 5 0 0110 0c0 3-2 5-5 5z"/><path d="M8 22h8"/><path d="M9 15h6"/></svg>
+        <h3>Tree Services</h3>
+        <p>Tree trimming, removals, stump grinding, and cleanup for safer, cleaner properties.</p>
       </div>
-      <div class="service-card reveal" onclick="showPage('services')">
+      <div class="service-card reveal" onclick="showServiceCategory('washing')">
+        <svg class="service-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M4 14c4-4 8 4 12 0s4-4 4-4"/><path d="M4 19c4-4 8 4 12 0s4-4 4-4"/><path d="M8 5h8"/><path d="M12 3v6"/></svg>
+        <h3>Exterior Cleaning</h3>
+        <p>Powerwashing, softwashing, and window cleaning for driveways, patios, siding, fences, glass, and hardscape surfaces.</p>
+      </div>
+      <div class="service-card reveal" onclick="showServiceCategory('upgrades')">
         <svg class="service-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
-        <h3>General Improvements</h3>
-        <p>Versatile outdoor upgrades and exterior enhancements customized to your vision.</p>
+        <h3>Outdoor Upgrades</h3>
+        <p>Custom exterior improvements, finishing touches, Christmas light installs, and seasonal upgrades.</p>
       </div>
     </div>
     <div style="text-align:center; margin-top: 2.5rem;">
@@ -1433,7 +1445,7 @@
   <!-- Final CTA -->
   <section class="final-cta">
     <h2 class="reveal">Ready to <em>Transform</em><br>Your Outdoor Space?</h2>
-    <p class="reveal">Premium landscaping for Katy, TX and the greater Houston area. Request a private quote today.</p>
+    <p class="reveal">Premium Landscaping, and outdoor improvements in Katy, Texas &amp; Greater Houston.</p>
     <div class="final-cta-actions reveal">
       <button class="btn-primary" onclick="showPage('contact')">Request a Private Quote</button>
       <a href="tel:2813107702" class="btn-outline phone">
@@ -1447,11 +1459,8 @@
   <footer>
     <div class="footer-inner">
       <div class="footer-brand">
-        <div class="fb-logo">
-          <svg width="22" height="22" viewBox="0 0 28 28" fill="none"><path d="M14 3C14 3 4 8 4 16C4 21.523 8.477 26 14 26C19.523 26 24 21.523 24 16C24 8 14 3 14 3Z" fill="#b8963e" opacity="0.85"/><path d="M14 26V12" stroke="#0a0a0a" stroke-width="1.5" stroke-linecap="round"/></svg>
-          Ironleaf Landscaping
-        </div>
-        <p>Premium landscape design and outdoor transformations serving Katy, TX and the greater Houston area.</p>
+        <div class="fb-logo"><img class="footer-logo-img" src="ironleaf-logo.png" alt="Iron Leaf logo"><span>Ironleaf Landscaping</span></div>
+        <p>Premium Landscaping, and outdoor improvements in Katy, Texas &amp; Greater Houston.</p>
       </div>
       <div class="footer-col">
         <h4>Navigation</h4>
@@ -1485,7 +1494,7 @@
     </div>
     <div class="footer-bottom">
       <p>(c) 2025 Ironleaf Landscaping - Katy, Texas</p>
-      <p>Premium Outdoor Improvements - Greater Houston Area</p>
+      <p>Premium Landscaping, and outdoor improvements in Katy, Texas &amp; Greater Houston.</p>
     </div>
   </footer>
 </div>
@@ -1524,7 +1533,7 @@
     <div class="about-visual">
       <div class="about-photo">
         <div class="img-placeholder" style="background: linear-gradient(135deg, #1a1f1a 0%, #0c120c 100%);">
-          <svg width="64" height="64" viewBox="0 0 24 24" fill="none" stroke="#b8963e" stroke-width="1" opacity="0.3"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
+          <svg width="64" height="64" viewBox="0 0 24 24" fill="none" stroke="#6f8f5a" stroke-width="1" opacity="0.3"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
         </div>
         <div class="about-badge">
           <div class="badge-num">100%</div>
@@ -1536,8 +1545,8 @@
   <footer>
     <div class="footer-inner">
       <div class="footer-brand">
-        <div class="fb-logo">Ironleaf Landscaping</div>
-        <p>Premium landscape design and outdoor transformations in Katy, TX.</p>
+        <div class="fb-logo"><img class="footer-logo-img" src="ironleaf-logo.png" alt="Iron Leaf logo"><span>Ironleaf Landscaping</span></div>
+        <p>Premium Landscaping, and outdoor improvements in Katy, Texas &amp; Greater Houston.</p>
       </div>
       <div class="footer-col">
         <h4>Navigation</h4>
@@ -1576,6 +1585,8 @@
       <button class="service-tab" type="button" data-service-tab="beds" role="tab" aria-selected="false" aria-controls="service-tab-beds">Beds &amp; Planting</button>
       <button class="service-tab" type="button" data-service-tab="cleanup" role="tab" aria-selected="false" aria-controls="service-tab-cleanup">Cleanup &amp; Trim</button>
       <button class="service-tab" type="button" data-service-tab="drainage" role="tab" aria-selected="false" aria-controls="service-tab-drainage">Drainage</button>
+      <button class="service-tab" type="button" data-service-tab="trees" role="tab" aria-selected="false" aria-controls="service-tab-trees">Tree Services</button>
+      <button class="service-tab" type="button" data-service-tab="washing" role="tab" aria-selected="false" aria-controls="service-tab-washing">Exterior Cleaning</button>
       <button class="service-tab" type="button" data-service-tab="upgrades" role="tab" aria-selected="false" aria-controls="service-tab-upgrades">Outdoor Upgrades</button>
     </div>
 
@@ -1595,7 +1606,7 @@
 
       <div class="service-tab-panel" id="service-tab-turf" data-service-panel="turf" role="tabpanel">
         <h3>Sod Installation &amp; Turf Replacement</h3>
-        <p>Premium turf replacement with preparation focused on clean edges, proper grading, and a lawn that establishes correctly in the Houston climate.</p>
+        <p>Premium sod installation and turf repair with preparation focused on clean edges, proper grading, and a lawn that establishes correctly in the Houston climate.</p>
         <div class="service-tab-grid">
           <div class="service-tab-point"><span>Best For</span><p>Patchy lawns, worn-out turf, new builds, and yards needing a fresh reset.</p></div>
           <div class="service-tab-point"><span>Includes</span><p>Old turf removal, ground prep, leveling, sod installation, and finish cleanup.</p></div>
@@ -1645,12 +1656,38 @@
         </div>
       </div>
 
+      <div class="service-tab-panel" id="service-tab-trees" data-service-panel="trees" role="tabpanel">
+        <h3>Tree Services</h3>
+        <p>Tree care and removal services for homeowners who need safer, cleaner, and more usable outdoor spaces.</p>
+        <div class="service-tab-grid">
+          <div class="service-tab-point"><span>Best For</span><p>Overgrown limbs, unsafe branches, unwanted trees, leftover stumps, and storm-related cleanup.</p></div>
+          <div class="service-tab-point"><span>Includes</span><p>Tree trimming, tree removals, stump grinding, branch cleanup, debris removal, and property reset work.</p></div>
+          <div class="service-tab-point"><span>Result</span><p>A cleaner property with improved safety, better clearance, and fewer obstacles in your outdoor space.</p></div>
+        </div>
+        <div class="service-tab-actions">
+          <button class="btn-primary" type="button" onclick="requestServiceQuote('Tree Services')">Request Tree Service Quote</button>
+        </div>
+      </div>
+
+      <div class="service-tab-panel" id="service-tab-washing" data-service-panel="washing" role="tabpanel">
+        <h3>Exterior Cleaning</h3>
+        <p>Professional exterior cleaning with powerwashing, softwashing, and window cleaning to restore curb appeal while using the right method for each surface.</p>
+        <div class="service-tab-grid">
+          <div class="service-tab-point"><span>Best For</span><p>Driveways, walkways, patios, fences, siding, entryways, windows, pool areas, and exterior surfaces with dirt, mildew, or buildup.</p></div>
+          <div class="service-tab-point"><span>Includes</span><p>Powerwashing for durable hard surfaces, softwashing for more delicate areas, window cleaning, surface rinsing, spot attention, and cleanup after service.</p></div>
+          <div class="service-tab-point"><span>Result</span><p>A cleaner, brighter property exterior with improved curb appeal and a more polished first impression.</p></div>
+        </div>
+        <div class="service-tab-actions">
+          <button class="btn-primary" type="button" onclick="requestServiceQuote('Powerwashing &amp; Softwashing')">Request Washing Quote</button>
+        </div>
+      </div>
+
       <div class="service-tab-panel" id="service-tab-upgrades" data-service-panel="upgrades" role="tabpanel">
         <h3>General Outdoor Improvements &amp; Upgrades</h3>
         <p>Custom exterior improvements for projects that need a skilled landscaping team but do not fit neatly into a single service category.</p>
         <div class="service-tab-grid">
-          <div class="service-tab-point"><span>Best For</span><p>Small upgrades, finishing touches, repair-adjacent projects, and custom property improvements.</p></div>
-          <div class="service-tab-point"><span>Includes</span><p>Project planning, material coordination, installation work, and detailed finishing.</p></div>
+          <div class="service-tab-point"><span>Best For</span><p>Small upgrades, finishing touches, repair-adjacent projects, seasonal installs, and custom property improvements.</p></div>
+          <div class="service-tab-point"><span>Includes</span><p>Project planning, material coordination, installation work, Christmas light installs, and detailed finishing.</p></div>
           <div class="service-tab-point"><span>Result</span><p>A more complete outdoor space with the loose ends handled professionally.</p></div>
         </div>
         <div class="service-tab-actions">
@@ -1664,8 +1701,8 @@
   <footer>
     <div class="footer-inner">
       <div class="footer-brand">
-        <div class="fb-logo">Ironleaf Landscaping</div>
-        <p>Premium outdoor improvements in Katy, TX and Greater Houston.</p>
+        <div class="fb-logo"><img class="footer-logo-img" src="ironleaf-logo.png" alt="Iron Leaf logo"><span>Ironleaf Landscaping</span></div>
+        <p>Premium Landscaping, and outdoor improvements in Katy, Texas &amp; Greater Houston.</p>
       </div>
       <div class="footer-col">
         <h4>Navigation</h4>
@@ -1700,7 +1737,7 @@
     <div class="gallery-grid">
       <div class="gallery-item tall reveal">
         <div class="img-placeholder" style="background: linear-gradient(160deg, #1a2015 0%, #0c1209 100%); height:100%;">
-          <svg width="52" height="52" viewBox="0 0 24 24" fill="none" stroke="#b8963e" stroke-width="1"><path d="M12 2L2 7l10 5 10-5-10-5z"/><path d="M2 17l10 5 10-5"/><path d="M2 12l10 5 10-5"/></svg>
+          <svg width="52" height="52" viewBox="0 0 24 24" fill="none" stroke="#6f8f5a" stroke-width="1"><path d="M12 2L2 7l10 5 10-5-10-5z"/><path d="M2 17l10 5 10-5"/><path d="M2 12l10 5 10-5"/></svg>
           <span>Full Landscape Design</span>
         </div>
         <div class="gallery-overlay">
@@ -1710,7 +1747,7 @@
       </div>
       <div class="gallery-item reveal">
         <div class="img-placeholder" style="background: linear-gradient(135deg, #151a10 0%, #0e1309 100%); height:100%;">
-          <svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="#b8963e" stroke-width="1"><rect x="3" y="3" width="18" height="18" rx="1"/><path d="M3 9h18M9 21V9"/></svg>
+          <svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="#6f8f5a" stroke-width="1"><rect x="3" y="3" width="18" height="18" rx="1"/><path d="M3 9h18M9 21V9"/></svg>
           <span>Sod Installation</span>
         </div>
         <div class="gallery-overlay">
@@ -1720,7 +1757,7 @@
       </div>
       <div class="gallery-item reveal">
         <div class="img-placeholder" style="background: linear-gradient(135deg, #181a12 0%, #11130c 100%); height:100%;">
-          <svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="#b8963e" stroke-width="1"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
+          <svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="#6f8f5a" stroke-width="1"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
           <span>Garden Enhancement</span>
         </div>
         <div class="gallery-overlay">
@@ -1730,7 +1767,7 @@
       </div>
       <div class="gallery-item wide reveal">
         <div class="img-placeholder" style="background: linear-gradient(135deg, #141a12 0%, #0d1209 100%); height:100%;">
-          <svg width="52" height="52" viewBox="0 0 24 24" fill="none" stroke="#b8963e" stroke-width="1"><path d="M3 9l9-7 9 7v11a2 2 0 01-2 2H5a2 2 0 01-2-2z"/></svg>
+          <svg width="52" height="52" viewBox="0 0 24 24" fill="none" stroke="#6f8f5a" stroke-width="1"><path d="M3 9l9-7 9 7v11a2 2 0 01-2 2H5a2 2 0 01-2-2z"/></svg>
           <span>Property Transformation</span>
         </div>
         <div class="gallery-overlay">
@@ -1740,7 +1777,7 @@
       </div>
       <div class="gallery-item reveal">
         <div class="img-placeholder" style="background: linear-gradient(135deg, #191a14 0%, #111209 100%); height:100%;">
-          <svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="#b8963e" stroke-width="1"><polyline points="22 12 18 12 15 21 9 3 6 12 2 12"/></svg>
+          <svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="#6f8f5a" stroke-width="1"><polyline points="22 12 18 12 15 21 9 3 6 12 2 12"/></svg>
           <span>Drainage Solution</span>
         </div>
         <div class="gallery-overlay">
@@ -1750,7 +1787,7 @@
       </div>
       <div class="gallery-item reveal">
         <div class="img-placeholder" style="background: linear-gradient(135deg, #1a1a14 0%, #12120c 100%); height:100%;">
-          <svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="#b8963e" stroke-width="1"><path d="M12 22V12M12 12C12 12 7 9 7 5a5 5 0 0110 0c0 4-5 7-5 7z"/></svg>
+          <svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="#6f8f5a" stroke-width="1"><path d="M12 22V12M12 12C12 12 7 9 7 5a5 5 0 0110 0c0 4-5 7-5 7z"/></svg>
           <span>Structural Trimming</span>
         </div>
         <div class="gallery-overlay">
@@ -1769,8 +1806,8 @@
   <footer>
     <div class="footer-inner">
       <div class="footer-brand">
-        <div class="fb-logo">Ironleaf Landscaping</div>
-        <p>Premium outdoor improvements in Katy, TX and Greater Houston.</p>
+        <div class="fb-logo"><img class="footer-logo-img" src="ironleaf-logo.png" alt="Iron Leaf logo"><span>Ironleaf Landscaping</span></div>
+        <p>Premium Landscaping, and outdoor improvements in Katy, Texas &amp; Greater Houston.</p>
       </div>
       <div class="footer-col">
         <h4>Navigation</h4>
@@ -1860,8 +1897,8 @@
   <footer>
     <div class="footer-inner">
       <div class="footer-brand">
-        <div class="fb-logo">Ironleaf Landscaping</div>
-        <p>Premium outdoor improvements in Katy, TX and Greater Houston.</p>
+        <div class="fb-logo"><img class="footer-logo-img" src="ironleaf-logo.png" alt="Iron Leaf logo"><span>Ironleaf Landscaping</span></div>
+        <p>Premium Landscaping, and outdoor improvements in Katy, Texas &amp; Greater Houston.</p>
       </div>
       <div class="footer-col">
         <h4>Navigation</h4>
@@ -1966,6 +2003,8 @@
           <option>Hedge &amp; Shrub Trimming</option>
           <option>Property Cleanup &amp; Refresh</option>
           <option>Drainage &amp; Grading</option>
+          <option>Tree Services</option>
+          <option>Powerwashing &amp; Softwashing</option>
           <option>General Outdoor Improvements</option>
           <option>Not Sure / Multiple Services</option>
         </select>
@@ -1983,8 +2022,8 @@
   <footer>
     <div class="footer-inner">
       <div class="footer-brand">
-        <div class="fb-logo">Ironleaf Landscaping</div>
-        <p>Premium outdoor improvements in Katy, TX and Greater Houston.</p>
+        <div class="fb-logo"><img class="footer-logo-img" src="ironleaf-logo.png" alt="Iron Leaf logo"><span>Ironleaf Landscaping</span></div>
+        <p>Premium Landscaping, and outdoor improvements in Katy, Texas &amp; Greater Houston.</p>
       </div>
       <div class="footer-col">
         <h4>Navigation</h4>
@@ -2053,6 +2092,24 @@
       if (matchingOption) projectSelect.value = matchingOption.value || matchingOption.textContent.trim();
     }
     showPage('contact');
+  }
+
+  function setActiveServiceTab(activeKey) {
+    const tabs = document.querySelectorAll('.service-tab[data-service-tab]');
+    const panels = document.querySelectorAll('.service-tab-panel[data-service-panel]');
+    tabs.forEach(item => {
+      const isActive = item.dataset.serviceTab === activeKey;
+      item.classList.toggle('active', isActive);
+      item.setAttribute('aria-selected', isActive ? 'true' : 'false');
+    });
+    panels.forEach(panel => {
+      panel.classList.toggle('active', panel.dataset.servicePanel === activeKey);
+    });
+  }
+
+  function showServiceCategory(activeKey) {
+    showPage('services');
+    setActiveServiceTab(activeKey);
   }
 
   async function handleQuoteSubmit(event) {
@@ -2208,17 +2265,7 @@
 
     tabs.forEach(tab => {
       tab.addEventListener('click', () => {
-        const activeKey = tab.dataset.serviceTab;
-
-        tabs.forEach(item => {
-          const isActive = item.dataset.serviceTab === activeKey;
-          item.classList.toggle('active', isActive);
-          item.setAttribute('aria-selected', isActive ? 'true' : 'false');
-        });
-
-        panels.forEach(panel => {
-          panel.classList.toggle('active', panel.dataset.servicePanel === activeKey);
-        });
+        setActiveServiceTab(tab.dataset.serviceTab);
       });
     });
   }
@@ -2295,7 +2342,7 @@
   window.addEventListener('scroll', () => {
     const nav = document.getElementById('mainNav');
     if (window.scrollY > 40) {
-      nav.style.borderBottomColor = 'rgba(184,150,62,0.15)';
+      nav.style.borderBottomColor = 'rgba(111,143,90,0.24)';
     } else {
       nav.style.borderBottomColor = 'var(--border)';
     }
